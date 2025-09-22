@@ -493,6 +493,48 @@ color: #eccda6;
     
 }
 
+.partners-section {
+  background-color: #f8f8f8;
+}
+
+.partners-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.partner-card {
+  background: #fff;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.partner-card h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.btn-partner {
+  background: #f7c948;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-partner:hover {
+  background: #ffdd57;
+  color: #000;
+}
+
 /* //section part :start */
 section{
     width: 100%;
